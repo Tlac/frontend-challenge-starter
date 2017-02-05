@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-
-import ReactDOM from 'react-dom';456
-
 import SearchBar from './components/search_bar';
 import UserList from './components/user_list';
 import $ from "jquery";
@@ -36,8 +33,8 @@ class App extends Component {
     render() {
       return (
         <div> 
-          <SearchBar onSearchTermChange = {searchTerm => this.userSearch(searchTerm)}/>
-          <UserList users = {this.state.user_results} />
+          <SearchBar onSearchTermChange={searchTerm => this.userSearch(searchTerm)}/>
+          <UserList users={this.state.user_results} />
         </div>
       );
     }
