@@ -12,6 +12,7 @@ class App extends Component {
         this.userSearch('');
     }
 
+
     userSearch(searchString){
 
         $.getJSON('https://hackthenorth.com/fe-users.json', (data) => {
