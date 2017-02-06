@@ -19,12 +19,6 @@ const UserListItem = ({user}) => {
 			</div>
 		</li>
 	);
-
-
-
-	//console.log(user);
-	//const user = props.user;
-	//return <li>{user.name}</li>
 };
 
 export default UserListItem;
